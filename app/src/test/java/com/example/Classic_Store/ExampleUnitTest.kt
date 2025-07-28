@@ -1,4 +1,4 @@
-package com.example.ecosajha
+package com.example.Classic_Store
 
 import org.junit.Test
 

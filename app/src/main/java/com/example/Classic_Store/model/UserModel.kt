@@ -1,4 +1,4 @@
-package com.example.ecosajha.model
+package com.example.Classic_Store.model
 
 data class UserModel(
     var userID : String = "",

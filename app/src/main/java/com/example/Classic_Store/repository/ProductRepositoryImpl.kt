@@ -1,6 +1,6 @@
-package com.example.ecosajha.repository
+package com.example.Classic_Store.repository
 
-import com.example.ecosajha.model.ProductModel
+import com.example.Classic_Store.model.ProductModel
 
 
 import android.content.Context

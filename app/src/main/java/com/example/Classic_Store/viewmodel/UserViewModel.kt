@@ -1,10 +1,10 @@
-package com.example.ecosajha.viewmodel
+package com.example.Classic_Store.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.ecosajha.model.UserModel
-import com.example.ecosajha.repository.UserRepository
+import com.example.Classic_Store.model.UserModel
+import com.example.Classic_Store.repository.UserRepository
 import com.google.firebase.auth.FirebaseUser
 
 class UserViewModel(val repo : UserRepository) : ViewModel() {

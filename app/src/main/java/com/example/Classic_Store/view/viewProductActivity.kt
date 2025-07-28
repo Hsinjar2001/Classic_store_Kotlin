@@ -1,4 +1,4 @@
-package com.example.ecosajha.view
+package com.example.Classic_Store.view
 
 import android.app.Activity
 import android.content.Intent
@@ -31,8 +31,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
-import com.example.ecosajha.repository.ProductRepositoryImpl
-import com.example.ecosajha.viewmodel.ProductViewModel
+import com.example.Classic_Store.repository.ProductRepositoryImpl
+import com.example.Classic_Store.viewmodel.ProductViewModel
 
 // Define custom purple color scheme for Classic Store
 private val EcoGreen = Color(0xFF7B1FA2) // Purple

@@ -1,4 +1,4 @@
-package com.example.ecosajha.view
+package com.example.Classic_Store.view
 
 import android.app.Activity
 import android.content.Intent
@@ -59,10 +59,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.launch
-import com.example.ecosajha.R
-import com.example.ecosajha.model.UserModel
-import com.example.ecosajha.repository.UserRepositoryImpl
-import com.example.ecosajha.viewmodel.UserViewModel
+import com.example.Classic_Store.R
+import com.example.Classic_Store.model.UserModel
+import com.example.Classic_Store.repository.UserRepositoryImpl
+import com.example.Classic_Store.viewmodel.UserViewModel
 
 class RegistrationActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,6 +1,6 @@
-package com.example.ecosajha.viewmodel
+package com.example.Classic_Store.viewmodel
 
-import com.example.ecosajha.model.ProductModel
+import com.example.Classic_Store.model.ProductModel
 
 
 import android.content.Context
@@ -9,7 +9,7 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.ecosajha.repository.ProductRepository
+import com.example.Classic_Store.repository.ProductRepository
 
 class ProductViewModel(val repo : ProductRepository) : ViewModel() {
 

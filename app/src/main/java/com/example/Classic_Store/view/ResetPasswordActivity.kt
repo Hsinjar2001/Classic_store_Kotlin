@@ -1,4 +1,4 @@
-package com.example.ecosajha.view
+package com.example.Classic_Store.view
 
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material3.Checkbox
@@ -56,7 +56,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.launch
-import com.example.ecosajha.R
+import com.example.Classic_Store.R
 
 class ResetPasswordActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

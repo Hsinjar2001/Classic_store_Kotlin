@@ -1,4 +1,4 @@
-package com.example.ecosajha.view
+package com.example.Classic_Store.view
 
 import android.app.Activity
 import android.os.Bundle
@@ -25,14 +25,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.ecosajha.repository.UserRepositoryImpl
-import com.example.ecosajha.viewmodel.UserViewModel
+import com.example.Classic_Store.repository.UserRepositoryImpl
+import com.example.Classic_Store.viewmodel.UserViewModel
 
 // Use the same color scheme
-private val EcoGreen = Color(0xFF7B1FA2) // Purple
-private val EcoGreenDark = Color(0xFF4A148C) // Dark Purple
-private val EcoGreenLight = Color(0xFFE91E63) // Pink
-private val EcoBackground = Color(0xFFFCE4EC) // Light Pink
+private val EcoGreen = Color(0xFF4CAF50)
+private val EcoGreenDark = Color(0xFF388E3C)
+private val EcoGreenLight = Color(0xFFC8E6C9)
+private val EcoBackground = Color(0xFFF1F8E9)
 
 class EditProfileActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -125,7 +125,7 @@ fun EditProfileBody(
                     Brush.verticalGradient(
                         colors = listOf(
                             EcoBackground,
-                            Color(0xFFF3E5F5)
+                            Color(0xFFE8F5E8)
                         )
                     )
                 ),

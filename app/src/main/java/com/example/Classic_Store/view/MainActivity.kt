@@ -1,4 +1,4 @@
-package com.example.ecosajha.view
+package com.example.Classic_Store.view
 
 import android.content.Context
 import android.content.Intent
@@ -28,7 +28,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
-import com.example.ecosajha.R
+import com.example.Classic_Store.R
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

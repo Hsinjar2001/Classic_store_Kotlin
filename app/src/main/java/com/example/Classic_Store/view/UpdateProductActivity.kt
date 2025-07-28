@@ -1,4 +1,4 @@
-package com.example.ecosajha.view
+package com.example.Classic_Store.view
 
 import android.app.Activity
 import android.os.Bundle
@@ -26,8 +26,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.ecosajha.repository.ProductRepositoryImpl
-import com.example.ecosajha.viewmodel.ProductViewModel
+import com.example.Classic_Store.repository.ProductRepositoryImpl
+import com.example.Classic_Store.viewmodel.ProductViewModel
 
 // Define custom purple color scheme for Classic Store
 private val EcoGreen = Color(0xFF7B1FA2) // Purple

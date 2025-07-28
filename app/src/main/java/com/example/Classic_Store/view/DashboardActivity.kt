@@ -1,4 +1,4 @@
-package com.example.ecosajha.view
+package com.example.Classic_Store.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -35,12 +35,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.delay
-import com.example.ecosajha.model.ProductModel
-import com.example.ecosajha.model.UserModel
-import com.example.ecosajha.repository.ProductRepositoryImpl
-import com.example.ecosajha.repository.UserRepositoryImpl
-import com.example.ecosajha.viewmodel.ProductViewModel
-import com.example.ecosajha.viewmodel.UserViewModel
+import com.example.Classic_Store.model.ProductModel
+import com.example.Classic_Store.model.UserModel
+import com.example.Classic_Store.repository.ProductRepositoryImpl
+import com.example.Classic_Store.repository.UserRepositoryImpl
+import com.example.Classic_Store.viewmodel.ProductViewModel
+import com.example.Classic_Store.viewmodel.UserViewModel
 import com.google.firebase.auth.FirebaseUser
 
 // Define custom purple color scheme for Classic Store
@@ -54,15 +54,15 @@ class DashboardActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            EcoSajhaTheme {
-                EcoSajhaDashboard()
+            Classic_StoreTheme {
+                Classic_StoreDashboard()
             }
         }
     }
 }
 
 @Composable
-fun EcoSajhaTheme(content: @Composable () -> Unit) {
+fun Classic_StoreTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colorScheme = lightColorScheme(
             primary = EcoGreen,
@@ -80,7 +80,7 @@ fun EcoSajhaTheme(content: @Composable () -> Unit) {
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalAnimationApi::class)
 @Composable
-fun EcoSajhaDashboard() {
+fun Classic_StoreDashboard() {
     var selectedTab by remember { mutableStateOf(0) }
     var searchQuery by remember { mutableStateOf("") }
 
@@ -1291,7 +1291,7 @@ fun getProfileStats(): List<StatData> = listOf(
 @Preview(showBackground = true)
 @Composable
 fun EmptyHomePreview() {
-    EcoSajhaTheme {
+    Classic_StoreTheme {
         HomeScreen(
             products = emptyList(),
             loading = false,

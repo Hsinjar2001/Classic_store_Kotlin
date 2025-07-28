@@ -1,6 +1,6 @@
-package com.example.ecosajha.repository
+package com.example.Classic_Store.repository
 
-import com.example.ecosajha.model.UserModel
+import com.example.Classic_Store.model.UserModel
 
 
 import com.google.firebase.auth.FirebaseAuth

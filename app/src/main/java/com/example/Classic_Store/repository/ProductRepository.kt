@@ -1,9 +1,9 @@
-package com.example.ecosajha.repository
+package com.example.Classic_Store.repository
 
 
 import android.content.Context
 import android.net.Uri
-import com.example.ecosajha.model.ProductModel
+import com.example.Classic_Store.model.ProductModel
 
 interface ProductRepository {
     fun addProduct(model: ProductModel, callback: (Boolean, String) -> Unit)
