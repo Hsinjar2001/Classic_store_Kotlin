@@ -1,4 +1,4 @@
-package com.example.ecosajha.ui.theme
+package com.example.Classic_Store.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

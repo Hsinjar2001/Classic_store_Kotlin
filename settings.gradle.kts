@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ecosajha"
+rootProject.name = "Classic_Store"
 include(":app")
  

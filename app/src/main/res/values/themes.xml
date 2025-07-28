@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Ecosajha" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Classic_Store" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>
 
 

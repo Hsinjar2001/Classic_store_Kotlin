@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ecosajha"
+    namespace = "com.example.Classic_Store"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.ecosajha"
+        applicationId = "com.example.Classic_Store"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
