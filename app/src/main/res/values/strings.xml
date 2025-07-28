@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ecosajha</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login_acitivity">LoginAcitivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_add_product">AddProduct</string>
+    <string name="title_activity_reset_password">ResetPassword</string>
+    <string name="title_activity_update_product">UpdateProductActivity</string>
+    <string name="title_activity_view_product">viewProductActivity</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
