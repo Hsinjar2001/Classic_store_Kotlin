@@ -33,7 +33,7 @@ class AuthInstrumentedTest {
 
         closeSoftKeyboard()
 
-
+        // Wait for the submit button to be displayed and then click it
         onView(withId(R.id.submitButton)).check(matches(isDisplayed())).perform(click())
         Thread.sleep(5000)
 
